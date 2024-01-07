@@ -47,6 +47,7 @@ git config --global user.name "yourusername"
 git config --global user.email "yourgituseremail@users.noreply.github.com"
 ssh-keygen -t ed25519 -C "youremail@email.com" -N '' -f ~/.ssh/id_ed25519 <<< y
 
+
 # install nodejs
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
