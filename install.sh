@@ -43,9 +43,9 @@ nala install code -y
 
 # install git
 nala install git -y
-git config --global user.name "mohammed-bageri"
-git config --global user.email "85331943+mohammed-bageri@users.noreply.github.com"
-ssh-keygen -t ed25519 -C "mohammed.bageri@protonmail.com" -N '' -f ~/.ssh/id_ed25519 <<< y
+git config --global user.name "yourusername"
+git config --global user.email "yourgituseremail@users.noreply.github.com"
+ssh-keygen -t ed25519 -C "youremail@email.com" -N '' -f ~/.ssh/id_ed25519 <<< y
 
 # install nodejs
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
