@@ -17,3 +17,10 @@ some other programs:
 3. Nvidia Driver (Remove if you don't have nvidia graphics card)
 4. Flatpack 
 5. Nala (better package manager)
+
+to install in your system: 
+1. download only script and put it in your home dir
+2. change whatever you want using the editor included with gnome
+3. open your terminal and type <code>sudo ./install.sh</code> (note: make sure you have sudo access)
+4. some prompt will ask for your option so be worry of them
+5. feel free to fork your own (and please put on that star up there if the script helped you)
