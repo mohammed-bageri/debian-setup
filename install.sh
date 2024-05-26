@@ -56,9 +56,6 @@ source ~/.bashrc
 nvm install --lts
 nvm use --lts
 
-# install rust
-curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
-
 # install PostgresSQL
 nala install postgresql postgresql-contrib -y
 passwd postgres
@@ -80,9 +77,6 @@ nala install tableplus -y
 # install flatpack
 nala install flatpak gnome-software-plugin-flatpak -y
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-
-# install Discord & whatsapp
-flatpak install flathub com.discordapp.Discord -y
 
 
 
